@@ -12,7 +12,9 @@ import { NavLink } from 'react-router-dom'
 const Sidenav = () => {
   return (
     <nav className='sidenav box bg-3'>
-      <img src={fintech} alt="logo fintech" />
+      {/* importando o svg */}
+      {/* <img src={fintech} alt="logo fintech" /> */}
+      {/* criando um componente com o svg  */}
       <FintechSVG title='Fintech Logo'/>
       {/* O title é como se fosse um texto alternativo para svg componente react */}
       <ul>

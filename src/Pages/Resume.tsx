@@ -1,3 +1,4 @@
+import SalesChart from '../Components/SalesChart'
 import { useData } from '../Context/DataContext'
 
 const Resume = () => {
@@ -42,7 +43,9 @@ const Resume = () => {
         </div>
 
       </div>
-      <div className='box mb'>Gráficos</div>
+      <div className='box mb'>
+        <SalesChart data={data}/>
+      </div>
     </section>
   )
 }
