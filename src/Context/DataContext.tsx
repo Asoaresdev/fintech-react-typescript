@@ -11,7 +11,7 @@ type TDataContext = {
     setFinish: React.Dispatch<React.SetStateAction<string>>
 }
 
-type TSale = {
+export type TSale = {
     id: string,
     nome: string,
     preco: number,
